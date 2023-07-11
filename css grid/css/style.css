@@ -1,0 +1,58 @@
+/*estilizando o header*/
+header{
+    color: white;
+    background-color: #002a9c;
+    padding: 20px;
+}
+
+/*estilizando a navegação*/
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: red;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*estilizando o Conteúdo Principal*/
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+section{
+    background-color: #00badb9c;
+    padding: 20px;
+}
+
+/*estilizando os Artigos*/
+article{
+    background-color: #00ad26;
+    border: 1px solid #00ad26;
+    padding: 10px;
+}
+
+article h3{
+    margin-top: 0;
+}
+
+/*estilizando os Rodapé*/
+footer{
+    background-color: rgb(218, 160, 3);
+    padding: 20px;
+    text-align: center;
+}
